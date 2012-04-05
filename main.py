@@ -23,7 +23,8 @@ def main():
 
         if l%2 == data['vi']:
             for k, v in data['pony'].items():
-                display('\t%s %d' % (k, v(l)))
+                for x in v:
+                    display('\t%s %d' % (k, x(l)))
 
 
 

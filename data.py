@@ -14,6 +14,7 @@ class RandomDict(dict):
 	def __getitem__(self, key):
 		if key == 'vi':
 			return random.choice((True, False))
+		return dict.__getitem__(self, key)
 
 def make_func(x):
 	def f(y):
