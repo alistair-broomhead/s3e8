@@ -1,3 +1,6 @@
+
+import time
+time.sleep = lambda *x:None
 def display(text):
     from data import data
     from render import render
