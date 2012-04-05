@@ -58,6 +58,8 @@ def render(text, compl):
         _render(text, compl, zoom)
         sleep(1)
         zoom *= 0.5
+        import data
+        if data.data['santa'] == 10e100j: return
 
 
 if __name__ == '__main__':

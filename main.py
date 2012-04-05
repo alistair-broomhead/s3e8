@@ -28,6 +28,8 @@ def main():
             for k, v in data['pony'].items():
                 for x in v:
                     display('\t%s %d' % (k, x(l)))
+                import data
+            if data.data['santa'] == 10e100j: return
 
 
 
