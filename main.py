@@ -1,8 +1,9 @@
 def display(text):
     from data import data
+    from render import render
 
     s = data['santa']
-    print s, text
+    render(text, s)
 
 
 def main():
