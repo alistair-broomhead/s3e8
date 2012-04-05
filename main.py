@@ -6,6 +6,7 @@ def display(text):
     from render import render
 
     s = data['santa']
+    print text
     render(text, s)
 
 
