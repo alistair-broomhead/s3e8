@@ -1,8 +1,8 @@
-__author__ = 'al'
+from data import data
 
 def main(data):
     print data
 
 if __name__ == "__main__":
-    from data import data
     main(data)
+
