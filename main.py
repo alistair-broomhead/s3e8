@@ -1,5 +1,3 @@
-__author__ = 'al'
-
 def display(text):
     from data import data
 

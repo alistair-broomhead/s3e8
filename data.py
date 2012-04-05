@@ -1,6 +1,6 @@
 __author__ = 'al'
 data = {
-    'emacs' : [], #List of strings
+    'emacs' : ['a', 'b', 'c'], #List of strings
     'vi' : True, #bool
     'pony' : {
         #key=string, value=set of func taking/returning int
